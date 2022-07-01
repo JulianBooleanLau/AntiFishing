@@ -1,0 +1,7 @@
+name: AntiFishing
+version: '${project.version}'
+main: com.julianbooleanlau.antifishing.AntiFishing
+api-version: 1.19
+authors: [ JulianLau ]
+description: Stops players from abusing autofishing machines or botting
+website: https://github.com/JulianBooleanLau
