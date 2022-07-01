@@ -8,7 +8,7 @@ public final class AntiFishing extends JavaPlugin {
     @Override
     public void onEnable() {
         // Plugin startup logic
-        Bukkit.getLogger().info("STARTING UP");
+        Bukkit.getLogger().info("AntiFishing starting up");
 
         //Registering new event handler
         //Placing torch will say hi back
@@ -18,5 +18,6 @@ public final class AntiFishing extends JavaPlugin {
     @Override
     public void onDisable() {
         // Plugin shutdown logic
+        Bukkit.getLogger().info("AntiFishing shutting down");
     }
 }
